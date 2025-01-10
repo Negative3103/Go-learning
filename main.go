@@ -1,14 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	user := createUser("testt", 11, 1)
-	fmt.Println(user)
-	user.changeName("some test")
-	fmt.Println(user.getName())
-}
-
 type User struct {
 	name   string
 	number int
